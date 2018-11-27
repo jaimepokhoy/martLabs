@@ -1,0 +1,4 @@
+.horizontalList {
+    display: flex;
+    flex-wrap: wrap;
+}
