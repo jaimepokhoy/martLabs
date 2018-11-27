@@ -14,7 +14,7 @@ const CarListItem = ({ details, availability }) => {
                 </div>
                 <div>
                     <div>{year}</div>
-                    <div>{availability}</div>
+                    <div>{availability === 'In Dealership' ? (<button>Buy</button>) : availability}</div>
                 </div>
             </div>
         </div>
