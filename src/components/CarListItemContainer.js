@@ -13,9 +13,7 @@ class CarListItemContainer extends Component {
         const { details, availability } = this.props;
 
         return (
-            <div>
-                <CarListItem details={details} availability={availability}/>
-            </div>
+            <CarListItem details={details} availability={availability}/>
         )
     }
 
